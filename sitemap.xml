@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://baggottsbots.github.io/paymegpt-official-merch-shop/</loc>
-    <lastmod>2026-07-29T02:52:40.067Z</lastmod>
+    <loc>https://shop.paymegpt.com/</loc>
+    <lastmod>2026-07-29T03:15:51.685Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://shop.paymegpt.com/</loc>
+    <lastmod>2026-07-29T03:13:21.952Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
