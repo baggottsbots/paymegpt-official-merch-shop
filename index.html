@@ -304,8 +304,25 @@
 <body class="bg-gray-900">
 
     <!-- ============================================================================ -->
-    <!-- FULLSCREEN IFRAME CONTAINER: Loads PayMeGPT shop in fullscreen mode         -->
-    <!-- Features: Responsive iframe, loading indicator, error handling              -->
+    <!-- TOP NAVIGATION BAR: Logo and back button in fixed header                    -->
+    <!-- Features: Sticky positioning, responsive design, hover effects              -->
+    <!-- ============================================================================ -->
+    <nav id="top-nav-bar" data-section="navbar" style="background: white !important; border-bottom-color: rgba(0, 0, 0, 0.1) !important;">
+        <!-- Back Button -->
+        <a id="back-button" href="https://paymegpt.com/" title="Back to Home" aria-label="Back to PayMeGPT Home" style="background-color: rgba(0, 0, 0, 0.05) !important; border-color: rgba(0, 0, 0, 0.2) !important; color: #333 !important;">
+            ←
+        </a>
+
+        <!-- Logo Link -->
+        <a id="logo-link" href="https://paymegpt.com/" title="PayMeGPT Home" aria-label="PayMeGPT Logo - Go to Home" style="margin: 0 auto;">
+            <img id="logo-image" src="https://paymegpt.com/api/landing-pages/images/coding-agent-assets%2F2%2F1774909219573_Untitled_design.png" alt="PayMeGPT Logo" style="height: 25px;">
+            <span style="margin-left: 0.75rem; font-size: 1.125rem; font-weight: 600; color: #333;">PayMeGPT Merch</span>
+        </a>
+    </nav>
+
+    <!-- ============================================================================ -->
+    <!-- LOADING INDICATOR: Spinner shown while iframe content loads                 -->
+    <!-- Features: Fullscreen overlay, spinner animation, error handling             -->
     <!-- ============================================================================ -->
     <div id="loading-indicator" class="fixed inset-0 flex items-center justify-center bg-gray-900 z-50" data-section="loading">
         <div class="text-center">
@@ -314,7 +331,10 @@
         </div>
     </div>
 
-    <!-- Fullscreen iframe element -->
+    <!-- ============================================================================ -->
+    <!-- FULLSCREEN IFRAME CONTAINER: Loads PayMeGPT shop in fullscreen mode         -->
+    <!-- Features: Responsive iframe, accounts for top nav bar, error handling       -->
+    <!-- ============================================================================ -->
     <iframe id="iframe-container" src="https://paymegpt.com/shop/pmg" data-section="shop"></iframe>
 
     
