@@ -1,0 +1,25 @@
+/* ===== CUSTOM STYLES ===== */
+        /* Fullscreen iframe container and body overflow handling */
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #iframe-container {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Loading spinner animation */
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .spinner {
+            animation: spin 1s linear infinite;
+        }
