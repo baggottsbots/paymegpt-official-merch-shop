@@ -24,10 +24,10 @@
         });
 
         // ===== RESPONSIVE IFRAME RESIZE =====
-        // Purpose: Ensure iframe fills entire viewport on resize
+        // Purpose: Ensure iframe fills entire viewport on resize, accounting for top nav
         // Triggers: Window resize event
         window.addEventListener('resize', function() {
             const iframeContainer = document.getElementById('iframe-container');
             iframeContainer.style.width = '100%';
-            iframeContainer.style.height = '100%';
+            iframeContainer.style.height = 'calc(100% - 70px)';
         });
