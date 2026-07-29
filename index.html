@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -13,10 +12,16 @@
 <meta name="keywords" content="PayMeGPT official merch" />
 <meta property="og:title" content="Get Your Official PayMeGPT Merch Today!" />
 <meta property="og:description" content="Level up your style with exclusive apparel and accessories from the official PayMeGPT shop. Designed for the ultimate AI and crypto community." />
+<meta property="og:image" content="https://paymegpt.com/api/landing-pages/images/landing-page-images%2F0%2F1785297670745_blob.jpeg" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Get Your Official PayMeGPT Merch Today!" />
 <meta name="twitter:description" content="Level up your style with exclusive apparel and accessories from the official PayMeGPT shop. Designed for the ultimate AI and crypto community." />
+<meta name="twitter:image" content="https://paymegpt.com/api/landing-pages/images/landing-page-images%2F0%2F1785297670745_blob.jpeg" />
+<link rel="icon" href="favicon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="favicon.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="favicon.png" />
 <!-- End SEO Meta Tags -->
 <script data-lp-token-hydrate>
 (function(){try{
@@ -307,16 +312,16 @@
     <!-- TOP NAVIGATION BAR: Logo and back button in fixed header                    -->
     <!-- Features: Sticky positioning, responsive design, hover effects              -->
     <!-- ============================================================================ -->
-    <nav id="top-nav-bar" data-section="navbar" style="background: white !important; border-bottom-color: rgba(0, 0, 0, 0.1) !important;">
+    <nav id="top-nav-bar" data-section="navbar" style="background: #1a1a2e !important; border-bottom-color: rgba(54, 214, 181, 0.3) !important; margin-bottom: 3rem !important;">
         <!-- Back Button -->
-        <a id="back-button" href="https://paymegpt.com/" title="Back to Home" aria-label="Back to PayMeGPT Home" style="background-color: rgba(0, 0, 0, 0.05) !important; border-color: rgba(0, 0, 0, 0.2) !important; color: #333 !important;">
+        <a id="back-button" href="https://paymegpt.com/" title="Back to Home" aria-label="Back to PayMeGPT Home" style="background-color: rgba(54, 214, 181, 0.2) !important; border-color: rgba(54, 214, 181, 0.5) !important; color: #36D6B5 !important; width: 30px !important; height: 30px !important; font-size: 0.9375rem !important;" contenteditable="true">
             ←
         </a>
 
         <!-- Logo Link -->
-        <a id="logo-link" href="https://paymegpt.com/" title="PayMeGPT Home" aria-label="PayMeGPT Logo - Go to Home" style="margin: 0 auto;">
-            <img id="logo-image" src="https://paymegpt.com/api/landing-pages/images/coding-agent-assets%2F2%2F1774909219573_Untitled_design.png" alt="PayMeGPT Logo" style="height: 25px;">
-            <span style="margin-left: 0.75rem; font-size: 1.125rem; font-weight: 600; color: #333;">PayMeGPT Merch</span>
+        <a id="logo-link" href="https://paymegpt.com/?theme=dark&amp;accent=%2336D6B5&amp;bg=%231a1a2e&amp;surface=%23262641&amp;text=%23e0e0e0" title="PayMeGPT Home" aria-label="PayMeGPT Logo - Go to Home" style="margin: 0 auto;">
+            <img id="logo-image" src="https://paymegpt.com/api/landing-pages/images/coding-agent-assets%2F2%2F1774909219573_Untitled_design.png" alt="PayMeGPT Logo" style="height: 25px; object-fit: cover; object-position: center center;">
+            <span style="margin-left: 0.75rem; font-size: 1.125rem; font-weight: 600; color: #e0e0e0;" contenteditable="true">Official Merch</span>
         </a>
     </nav>
 
@@ -324,10 +329,10 @@
     <!-- LOADING INDICATOR: Spinner shown while iframe content loads                 -->
     <!-- Features: Fullscreen overlay, spinner animation, error handling             -->
     <!-- ============================================================================ -->
-    <div id="loading-indicator" class="fixed inset-0 flex items-center justify-center bg-gray-900 z-50" data-section="loading">
+    <div id="loading-indicator" class="fixed inset-0 flex items-center justify-center z-50" style="background-color: var(--loading-bg, #111827);" data-section="loading">
         <div class="text-center">
-            <div class="spinner w-12 h-12 text-blue-500 mx-auto mb-4 border-4 border-gray-700 border-t-blue-500 rounded-full"></div>
-            <p class="text-gray-300 text-lg font-semibold">Loading...</p>
+            <div class="spinner w-12 h-12 mx-auto mb-4 border-4 border-gray-700 border-t-[var(--accent-color, #36D6B5)] rounded-full" style="color: var(--accent-color, #36D6B5);"></div>
+            <p class="text-lg font-semibold" style="color: var(--loading-text, #d1d5db);">Loading...</p>
         </div>
     </div>
 
@@ -335,10 +340,10 @@
     <!-- FULLSCREEN IFRAME CONTAINER: Loads PayMeGPT shop in fullscreen mode         -->
     <!-- Features: Responsive iframe, accounts for top nav bar, error handling       -->
     <!-- ============================================================================ -->
-    <iframe id="iframe-container" src="https://paymegpt.com/shop/pmg" data-section="shop"></iframe>
+    <iframe id="iframe-container" src="https://paymegpt.com/shop/pmg?theme=dark&amp;accent=%2336D6B5&amp;bg=%231a1a2e&amp;surface=%2316213e&amp;text=%23ffffff" data-section="shop" style="margin-top: calc(3rem + 10px); padding-top: 1rem;"></iframe>
 
     
 
+
   <script src="script.js"></script>
-</body>
-</html>
+</body></html>
