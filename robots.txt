@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://baggottsbots.github.io/paymegpt-official-merch-shop/sitemap.xml
+Sitemap: https://shop.paymegpt.com/sitemap.xml
